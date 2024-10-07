@@ -26,7 +26,7 @@ def inject_background_css(bg_option):
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.85); /* Adjust the opacity with this rgba value */
+            background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity with this rgba value */
             z-index: 0;
         }
 
@@ -55,7 +55,7 @@ def inject_background_css(bg_option):
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.85); /* Adjust the opacity here too */
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here too */
             z-index: 0;
         }
 
