@@ -59,7 +59,7 @@ def load_data(file_path):
 def velo_dashboard():
 
     # Path to the CSV file on your local filesystem
-    file_path = "C:/wildcode_school_courses/RCNP_exam_certification/velo_analytics_dashboard/velo_app/data/sales_bicycles.csv"  # Specify the full path to your CSV file here
+    file_path = "data/sales_bicycles.csv"  # Specify the full path to your CSV file here
 
     # Load the data using the cache
     salebicyles_df = load_data(file_path)
